@@ -1,0 +1,43 @@
+/* ------- ATTRIBUTS ------- */
+
+/* ------- CLASSES ------- */
+
+.postit {
+   
+    background: #ff8888;
+
+    height:10em;
+    padding-top:1%;
+    border:2px solid #E8E8E8;  
+    border-bottom-right-radius: 60px 7px;
+
+    text-align:center;   
+    font-family: 'Courier New'!important;   
+    font-size:25px;  
+    line-height: 1;
+}
+
+.postitDone{
+    background: rgba(104, 212, 71, 0.438);
+}
+
+.postit textarea{
+    background: white;
+    text-align: center;
+}
+
+.postit h2{
+    font-weight: bold;
+}
+
+.deletePostit{
+    color: red;
+    font-size: 0.5em;
+}
+
+.checkPostit{
+    color: green;
+    font-size: 0.5em;
+}
+
+/* ------- ID ------- */
