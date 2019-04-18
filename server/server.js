@@ -1,4 +1,4 @@
-var port = const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 var configDirectory = 'server';
 
 var path = require('path');
