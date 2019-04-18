@@ -1,4 +1,4 @@
-const port = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 var configDirectory = 'server';
 
 var path = require('path');
@@ -90,6 +90,6 @@ app.post('/setStatusTask', function( requete, response ) {
 });
 
 
-app.listen(port);
+app.listen(PORT);
 
-console.log('Serveur running on port ' + port );
+console.log('Serveur running on port ' + PORT );
